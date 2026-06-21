@@ -97,3 +97,17 @@ margin-left:12px;
 .white{background:#fff;color:#2563eb}
 footer{background:#071b4d;color:#fff}
 .foot{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding:40px 0}
+
+.credential-card{
+background:#071b4d;
+color:#fff;
+border-top:4px solid #2563eb;
+}
+
+.credential-card h4{
+color:#fff;
+}
+
+.credential-card p{
+color:#dbeafe;
+}
