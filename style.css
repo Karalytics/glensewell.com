@@ -266,7 +266,11 @@ margin-top:40px;
 
 .value-item{
 text-align:center;
-padding:20px;
+padding:30px 20px;
+min-height:180px;
+display:flex;
+flex-direction:column;
+justify-content:center;
 }
 
 .value-item h4{
