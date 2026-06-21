@@ -266,8 +266,8 @@ margin-top:40px;
 
 .value-item{
 text-align:center;
-padding:30px 20px;
-min-height:180px;
+padding:25px;
+min-height:120px;
 display:flex;
 flex-direction:column;
 justify-content:center;
