@@ -19,8 +19,24 @@ h3{text-align:center;font-size:38px}
 .card{background:#fff;padding:28px;border-radius:18px;box-shadow:0 10px 25px rgba(0,0,0,.08)}
 .card img{width:42px;height:42px}
 .twocol{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:30px}
-.ins{background:#fff;padding:18px;border-radius:12px;margin-bottom:12px;box-shadow:0 4px 12px rgba(0,0,0,.06)}
-.ins span{float:right;background:#e7efff;padding:4px 8px;border-radius:10px}
+.ins{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#fff;
+padding:18px 22px;
+border-radius:12px;
+margin-bottom:12px;
+box-shadow:0 4px 12px rgba(0,0,0,.06)
+}
+
+.ins span:last-child{
+background:#e7efff;
+padding:4px 8px;
+border-radius:10px;
+white-space:nowrap;
+margin-left:12px;
+}
 .cta{margin:50px 0;background:linear-gradient(135deg,#1d4ed8,#2563eb);color:#fff;padding:30px;border-radius:20px;display:grid;grid-template-columns:80px 1fr auto;align-items:center}
 .rocket{width:60px;height:60px;background:#fff;color:#2563eb;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px}
 .white{background:#fff;color:#2563eb}
