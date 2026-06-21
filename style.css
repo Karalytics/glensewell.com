@@ -12,7 +12,7 @@ box-sizing:border-box;
 nav a{color:#fff;text-decoration:none;margin-left:20px}
 .cta-nav,.btn{background:#2563eb;color:#fff;padding:12px 18px;border-radius:8px;text-decoration:none}
 .hero{
-min-height:820px;
+min-height:760px;
 background:
 linear-gradient(
 90deg,
