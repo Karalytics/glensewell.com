@@ -26,11 +26,10 @@ background-position:70% center;
 position:relative;
 overflow:hidden;
 }
-.hero-grid
-{
+.hero-grid{
 display:grid;
 grid-template-columns:1.05fr .95fr;
-align-items:center;
+align-items:end;
 gap:60px;
 min-height:820px;
 }
