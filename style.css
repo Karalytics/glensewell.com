@@ -22,7 +22,7 @@ rgba(255,255,255,.55) 100%
 ),
 url('assets/hero-bg.png');
 background-size:cover;
-background-position:25% center;
+background-position:90% center;
 position:relative;
 overflow:hidden;
 }
