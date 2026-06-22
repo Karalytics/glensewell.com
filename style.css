@@ -32,7 +32,7 @@ text-decoration:none
 }
 
 .hero{
-min-height:700px;
+min-height:620px;
 background:
 linear-gradient(
 90deg,
@@ -52,7 +52,7 @@ display:grid;
 grid-template-columns:1.05fr .95fr;
 align-items:center;
 gap:60px;
-min-height:700px;
+min-height:620px;
 }
 
 h1{
