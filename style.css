@@ -76,7 +76,6 @@ width:100%;
 max-width:500px;
 display:block;
 position:relative;
-bottom:-50px;
 z-index:3;
 filter:drop-shadow(0 25px 50px rgba(0,0,0,.12));
 }
