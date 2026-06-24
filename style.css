@@ -321,5 +321,20 @@ align-items:center;
 nav a{
 margin:0;
 }
+.wrap{
+padding:0 15px;
+}
 
+.hero{
+overflow:hidden;
+}
+
+.hero-photo img{
+max-width:100%;
+height:auto;
+}
+
+.credpanel{
+grid-template-columns:1fr 1fr;
+}
 }
