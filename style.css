@@ -292,3 +292,23 @@ font-size:56px;
 }
 
 }
+
+@media (max-width: 768px){
+
+h1{
+font-size:56px;
+}
+
+.hero-grid{
+grid-template-columns:1fr;
+}
+
+.grid4{
+grid-template-columns:1fr;
+}
+
+.grid3{
+grid-template-columns:1fr;
+}
+
+}
