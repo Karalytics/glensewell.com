@@ -284,7 +284,6 @@ margin-bottom:10px;
 font-size:16px;
 line-height:1.5;
 }
-
 @media (max-width: 768px){
 
 h1{
@@ -305,17 +304,22 @@ grid-template-columns:1fr;
 
 .nav{
 flex-direction:column;
-gap:15px;
+text-align:center;
+}
+
+.logo{
+margin-bottom:15px;
 }
 
 nav{
 display:flex;
-flex-wrap:wrap;
-justify-content:center;
+flex-direction:column;
+gap:10px;
+align-items:center;
 }
 
 nav a{
-margin:5px 10px;
+margin:0;
 }
 
 }
