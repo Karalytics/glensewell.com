@@ -337,4 +337,7 @@ height:auto;
 .credpanel{
 grid-template-columns:1fr 1fr;
 }
+  body{
+overflow-x:hidden;
+}
 }
