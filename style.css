@@ -349,4 +349,13 @@ gap:20px;
 .rocket{
 margin:0 auto;
 }
+  .foot{
+flex-direction:column;
+gap:30px;
+text-align:center;
+}
+
+footer{
+padding:30px 20px;
+}
 }
