@@ -349,10 +349,13 @@ gap:20px;
 .rocket{
 margin:0 auto;
 }
+
   .foot{
+display:flex;
 flex-direction:column;
 gap:30px;
 text-align:center;
+align-items:center;
 }
 
 footer{
