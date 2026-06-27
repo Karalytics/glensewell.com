@@ -301,14 +301,12 @@ text-align:center;
 }
 
 h2{
-font-size:30px;
-text-align:center;
+    font-size:38px;
+    line-height:1.2;
 }
 
 .hero{
-min-height:auto;
-padding:40px 0 0;
-overflow:hidden;
+    padding-top:30px;
 }
 
 .hero-grid{
@@ -347,8 +345,9 @@ margin:20px auto;
 }
 
 .nav{
-flex-direction:column;
-text-align:center;
+    flex-direction:column;
+    text-align:center;
+    padding:30px 0;
 }
 
 .logo{
