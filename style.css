@@ -678,8 +678,8 @@ box-shadow:0 18px 40px rgba(0,0,0,.14);
 .knowledge-label{
 
 display:inline-block;
-
-background:#eef4ff;
+background:linear-gradient(90deg,#dbeafe,#edf4ff);
+    border:1px solid #bfdbfe;
 
 color:#2563eb;
 
