@@ -734,6 +734,19 @@ margin-bottom:26px;
     color:#6b7280;
 }
 
+.coming-title{
+    margin:20px 0 8px;
+    font-size:30px;
+    font-weight:700;
+    color:#0f172a;
+}
+
+.coming-description{
+    margin:0 0 28px;
+    font-size:17px;
+    color:#64748b;
+}
+
 .knowledge-card h4{
 
 margin:0 0 18px;
