@@ -158,12 +158,14 @@ grid-template-columns:repeat(3,1fr)
 }
 
 .card{
-background:#fff;
-padding:32px;
-border-radius:18px;
-box-shadow:0 10px 25px rgba(0,0,0,.08);
-border-top:4px solid #2563eb;
-transition:.28s ease;
+    background:#fff;
+    padding:32px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    border-top:4px solid #2563eb;
+    transition:.28s ease;
+
+    margin-bottom:30px;
 }
 
 .grey-card{
