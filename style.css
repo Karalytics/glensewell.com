@@ -728,6 +728,12 @@ margin-bottom:26px;
     color:#6d28d9;
 }
 
+.coming-label{
+    background:linear-gradient(90deg,#f3f4f6,#f8fafc);
+    border:1px solid #d1d5db;
+    color:#6b7280;
+}
+
 .knowledge-card h4{
 
 margin:0 0 18px;
