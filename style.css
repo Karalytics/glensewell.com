@@ -794,3 +794,11 @@ grid-template-columns:1fr;
 }
 
 }
+
+.coming-soon p{
+    margin-bottom:18px;
+}
+
+.coming-soon p:last-child{
+    margin-bottom:0;
+}
