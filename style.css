@@ -638,26 +638,6 @@ padding:35px 20px;
 
 }
 
-/* ==========================================================
-   Editorial Question Callout
-   ========================================================== */
-
-.question-callout {
-    margin: 2.5rem 0;
-}
-
-.question-intro {
-    font-weight: 700;
-    font-size: 1.15rem;
-    line-height: 1.5;
-    margin-bottom: 1.5rem;
-}
-
-.question-item {
-    margin: 0.85rem 0 0.85rem 0.75rem;
-    font-size: 1rem;
-    line-height: 1.8;
-}
 /* ==========================================
 Knowledge Center
 ========================================== */
