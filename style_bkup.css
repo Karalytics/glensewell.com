@@ -806,3 +806,219 @@ grid-template-columns:1fr;
 .coming-soon p:last-child{
     margin-bottom:0;
 }
+
+
+/* ==========================================================================
+   GlenSewell.com Editorial Publishing Layer
+   Append this section to the END of your existing style.css
+   ========================================================================== */
+
+/* ---------- Article rhythm ---------- */
+
+.article-wrap{
+    max-width:820px;
+}
+
+.article-wrap p{
+    line-height:1.9;
+    margin:0 0 1.45rem;
+}
+
+.article-wrap h1{
+    margin-bottom:1.25rem;
+}
+
+.article-wrap h2{
+    margin-top:3.2rem;
+    margin-bottom:1rem;
+}
+
+.lead{
+    font-size:1.35rem;
+    line-height:1.7;
+    color:#2b2b2b;
+    margin-bottom:2rem;
+}
+
+/* ---------- Editorial question ---------- */
+
+.editorial-question{
+    text-align:center;
+    font-size:2rem;
+    font-weight:700;
+    margin:2.75rem auto;
+    color:#163d7a;
+}
+
+/* ---------- Pull quotes ---------- */
+
+.pull-quote,
+blockquote.pull-quote{
+    max-width:640px;
+    margin:3rem auto;
+    padding:2rem 2.5rem;
+    border-left:6px solid #2563eb;
+    background:#f8fbff;
+    font-size:1.7rem;
+    font-weight:300;
+    line-height:1.45;
+    text-align:center;
+    color:#1f2937;
+    border-radius:10px;
+    box-shadow:0 8px 24px rgba(0,0,0,.08);
+}
+
+/* ---------- Editorial highlights ---------- */
+
+.editorial-highlight{
+    display:block;
+    max-width:620px;
+    margin:2.5rem auto;
+    text-align:center;
+    color:#2563eb;
+    font-size:1.35rem;
+    font-weight:700;
+    line-height:1.5;
+}
+
+/* ---------- Section dividers ---------- */
+
+.editorial-divider{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    margin:4rem 0 2rem;
+    color:#2563eb;
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:.78rem;
+    font-weight:700;
+}
+
+.editorial-divider:before,
+.editorial-divider:after{
+    content:"";
+    flex:1;
+    height:1px;
+    background:#d7e5fb;
+}
+
+/* ---------- Figure panel ---------- */
+
+.figure-panel{
+    margin:4rem 0;
+    padding:2.5rem;
+    background:#fafbfd;
+    border:1px solid #e6edf7;
+    border-radius:14px;
+}
+
+.figure-title{
+    text-align:center;
+    margin-top:0;
+}
+
+.figure-intro{
+    text-align:center;
+    max-width:680px;
+    margin:0 auto 2rem;
+    color:#555;
+}
+
+.article-figure{
+    text-align:center;
+    margin:0;
+}
+
+.article-figure img{
+    display:block;
+    max-width:85%;
+    margin:0 auto;
+    border:1px solid #d9e3ef;
+    border-radius:10px;
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+    transition:transform .2s ease;
+    cursor:zoom-in;
+}
+
+.article-figure img:hover{
+    transform:scale(1.01);
+}
+
+.article-figure figcaption{
+    margin-top:1rem;
+    font-size:.95rem;
+    color:#666;
+    line-height:1.6;
+}
+
+.figure-click-hint{
+    display:block;
+    margin-top:.5rem;
+    color:#2563eb;
+    font-size:.85rem;
+    font-weight:600;
+}
+
+.figure-summary{
+    max-width:650px;
+    margin:2rem auto 0;
+    text-align:center;
+    font-size:1.05rem;
+}
+
+/* ---------- Key insight ---------- */
+
+.key-insight{
+    margin:3rem 0;
+    padding:1.75rem 2rem;
+    background:#eef5ff;
+    border-left:6px solid #2563eb;
+    border-radius:8px;
+}
+
+.key-insight h3{
+    margin-top:0;
+    color:#163d7a;
+}
+
+/* ---------- Reflection ---------- */
+
+.reflection-box{
+    margin-top:4rem;
+}
+
+/* ---------- Navigation ---------- */
+
+.article-navigation{
+    display:flex;
+    justify-content:space-between;
+    gap:1rem;
+    margin-top:4rem;
+    flex-wrap:wrap;
+}
+
+@media (max-width:768px){
+
+.pull-quote,
+blockquote.pull-quote{
+    font-size:1.35rem;
+    padding:1.5rem;
+}
+
+.editorial-question{
+    font-size:1.6rem;
+}
+
+.article-figure img{
+    max-width:100%;
+}
+
+.figure-panel{
+    padding:1.5rem;
+}
+
+.article-navigation{
+    flex-direction:column;
+}
+}
