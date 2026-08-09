@@ -1150,9 +1150,21 @@ blockquote.pull-quote{
         display: none;
     }
 }
-/* Keep About hero aligned to the same content rail */
+/* Hero alignment */
 .about-v2 .about-v2-hero {
-    max-width: 1180px;
+    width: 100%;
+    max-width: 1320px;
     margin: 0 auto;
     grid-template-columns: 52% 48%;
+}
+
+.about-v2 .about-v2-hero-copy {
+    box-sizing: border-box;
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+}
+
+/* Keep the main About heading on one line */
+.about-v2 .about-v2-hero-copy h1 {
+    white-space: nowrap;
 }
