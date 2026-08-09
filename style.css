@@ -1150,3 +1150,9 @@ blockquote.pull-quote{
         display: none;
     }
 }
+/* Keep About hero aligned to the same content rail */
+.about-v2 .about-v2-hero {
+    max-width: 1180px;
+    margin: 0 auto;
+    grid-template-columns: 52% 48%;
+}
