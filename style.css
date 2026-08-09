@@ -1022,35 +1022,53 @@ blockquote.pull-quote{
     flex-direction:column;
 }
 }
-
 /* ==========================================================
-   ABOUT PAGE — SCOPED STYLES
-   Add this section to the END of style.css.
-   All rules are scoped to .about-v2 so other pages are untouched.
+   ABOUT PAGE
    ========================================================== */
 
 .about-v2 {
     --about-max: 1180px;
 }
 
-/* Shared content rail */
+/* ----------------------------------------------------------
+   Shared content rail
+   ---------------------------------------------------------- */
+
 .about-v2 .about-v2-section {
     width: 100%;
     max-width: var(--about-max);
-    box-sizing: border-box;
     margin: 0 auto;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
 }
 
-/* Hero alignment */
+/* ----------------------------------------------------------
+   Hero
+   ---------------------------------------------------------- */
+
+.about-v2 .about-v2-hero {
+    width: 100%;
+    max-width: var(--about-max);
+    margin: 0 auto;
+    grid-template-columns: 56% 44%;
+    box-sizing: border-box;
+}
+
 .about-v2 .about-v2-hero-copy {
     box-sizing: border-box;
-    padding-left: max(32px, calc((100vw - var(--about-max)) / 2 + 32px)) !important;
+    padding-left: 0 !important;
     padding-right: 32px !important;
 }
 
-/* Section headings + supporting text */
+.about-v2 .about-v2-hero-copy h1 {
+    white-space: nowrap;
+}
+
+/* ----------------------------------------------------------
+   Section headings and supporting text
+   ---------------------------------------------------------- */
+
 .about-v2 .about-v2-section > h2,
 .about-v2 .about-v2-approach-inner > h2,
 .about-v2 .about-v2-section > .about-v2-section-intro,
@@ -1063,7 +1081,10 @@ blockquote.pull-quote{
     margin-right: 0 !important;
 }
 
-/* Journey cards */
+/* ----------------------------------------------------------
+   Journey
+   ---------------------------------------------------------- */
+
 .about-v2 .about-v2-journey-card,
 .about-v2 .about-v2-today-card,
 .about-v2 .about-v2-journey-card h3,
@@ -1072,35 +1093,15 @@ blockquote.pull-quote{
     text-align: left !important;
 }
 
-/* Approach cards */
+/* ----------------------------------------------------------
+   Approach
+   ---------------------------------------------------------- */
+
 .about-v2 .about-v2-approach-card,
 .about-v2 .about-v2-approach-card h3 {
     text-align: left !important;
 }
 
-/* Credentials */
-.about-v2 .about-v2-credentials,
-.about-v2 .about-v2-credentials article,
-.about-v2 .about-v2-credentials h3,
-.about-v2 .about-v2-credentials p {
-    text-align: left !important;
-}
-
-/* Accent rules stay left aligned */
-.about-v2 .about-v2-small-rule {
-    margin-left: 0 !important;
-    margin-right: auto !important;
-}
-
-/* Keep the same circular connector treatment as My Journey */
-.about-v2 .about-v2-approach-arrow {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-self: center;
-}
-
-/* Approach layout: 4 cards with the same circular arrows between them */
 .about-v2 .about-v2-approach-grid {
     display: grid;
     grid-template-columns:
@@ -1112,8 +1113,39 @@ blockquote.pull-quote{
     align-items: center;
 }
 
-/* Mobile / tablet */
+.about-v2 .about-v2-approach-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+/* ----------------------------------------------------------
+   Credentials
+   ---------------------------------------------------------- */
+
+.about-v2 .about-v2-credentials,
+.about-v2 .about-v2-credentials article,
+.about-v2 .about-v2-credentials h3,
+.about-v2 .about-v2-credentials p {
+    text-align: left !important;
+}
+
+/* ----------------------------------------------------------
+   Accent rules
+   ---------------------------------------------------------- */
+
+.about-v2 .about-v2-small-rule {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+/* ----------------------------------------------------------
+   Responsive
+   ---------------------------------------------------------- */
+
 @media (max-width: 1050px) {
+
     .about-v2 .about-v2-approach-grid {
         grid-template-columns: 1fr 1fr;
         gap: 18px;
@@ -1125,14 +1157,24 @@ blockquote.pull-quote{
 }
 
 @media (max-width: 768px) {
+
     .about-v2 .about-v2-section {
         padding-left: 18px;
         padding-right: 18px;
     }
 
+    .about-v2 .about-v2-hero {
+        max-width: 100%;
+        grid-template-columns: 1fr;
+    }
+
     .about-v2 .about-v2-hero-copy {
-        padding-left: 18px !important;
-        padding-right: 18px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .about-v2 .about-v2-hero-copy h1 {
+        white-space: normal;
     }
 
     .about-v2 .about-v2-section > h2,
@@ -1149,22 +1191,4 @@ blockquote.pull-quote{
     .about-v2 .about-v2-approach-arrow {
         display: none;
     }
-}
-/* Hero alignment */
-.about-v2 .about-v2-hero {
-    width: 100%;
-    max-width: 1320px;
-    margin: 0 auto;
-    grid-template-columns: 52% 48%;
-}
-
-.about-v2 .about-v2-hero-copy {
-    box-sizing: border-box;
-    padding-left: 32px !important;
-    padding-right: 32px !important;
-}
-
-/* Keep the main About heading on one line */
-.about-v2 .about-v2-hero-copy h1 {
-    white-space: nowrap;
 }
