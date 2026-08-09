@@ -1192,3 +1192,8 @@ blockquote.pull-quote{
         display: none;
     }
 }
+
+/* Insights page content rail */
+.insights-content {
+    max-width: 1180px;
+}
