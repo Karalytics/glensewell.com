@@ -1197,3 +1197,16 @@ blockquote.pull-quote{
 .insights-content {
     max-width: 1180px;
 }
+/* ==========================================================
+   INSIGHTS PAGE — SHARED CONTENT RAIL
+   ========================================================== */
+
+.insights-content {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+}
+
